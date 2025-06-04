@@ -19,11 +19,12 @@ const Navbar = () => {
   }, []);
 
   const navItems = [
-    { name: 'Home', href: '#home' },
-    { name: 'Biography', href: '#biography' },
-    { name: 'Expert Guidance', href: '#expert-guidance' },
-    { name: 'Academic', href: '#academic' },
-    { name: 'Kuchipudi', href: '#cultural' }
+    { name: "Home", href: "#home" },
+    { name: "Program Guide", href: "#programguide" },
+    { name: "Biography", href: "#biography" },
+    { name: "Expert Guidance", href: "#expert-guidance" },
+    { name: "Academic", href: "#academic" },
+    { name: "Kuchipudi", href: "#cultural" },
   ];
 
   return (
@@ -33,7 +34,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           <div className="flex-shrink-0 font-bold text-xl md:text-2xl font-display">
-            Alekhya Rangapravesam
+            Alekhya Alapati Rangapravesam
           </div>
           
           {/* Desktop menu */}
