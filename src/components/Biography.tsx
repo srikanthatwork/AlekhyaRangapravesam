@@ -31,7 +31,7 @@ const Biography = () => {
   return (
     <section 
       id="biography" 
-      className="py-20 bg-white"
+      className="py-20 bg-white " 
     >
       <div 
         ref={bioRef} 

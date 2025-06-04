@@ -39,17 +39,19 @@ const Hero = () => {
         className="absolute inset-0 z-[-1] bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage: `url(${backgroundImage})`,
-          backgroundPosition: "center 40%",
-          backgroundAttachment: "fixed",
-          backgroundSize: "cover",
+          backgroundPosition: "center center",
+          // backgroundAttachment: "fixed",
+          // backgroundSize: "contain",
+          objectFit: "contain",
           top: "63px", // Instead of margin-top for absolute positioning
-          height: "calc(100vh - 63px)", // Adjust height to account for the top offset
+          //  height:"150vh",
+          width: "100%", // Adjust height to account for the top offset
           // Add padding for smaller screens
         }}
       />
 
       {/* Gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-amber-800/40 to-amber-950/40 z-0"></div>
+      {/* <div className="absolute inset-0 bg-gradient-to-b from-amber-800/40 to-amber-950/40 z-0"></div> */}
 
       {/* Your content would go here */}
     </section>

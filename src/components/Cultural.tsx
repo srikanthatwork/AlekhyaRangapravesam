@@ -45,7 +45,7 @@ const Cultural = () => {
           <div className="bg-amber-50 rounded-lg overflow-hidden mb-12">
             <div className="md:flex">
               <div className="md:w-1/2 p-8">
-                <h3 className="text-2xl text-amber-800 font-semibold mb-4">About Kuchipudi?</h3>
+                <h3 className="text-2xl text-amber-800 font-semibold mb-4">About Kuchipudi</h3>
                 <p className="mb-4 text-stone-700">
                   Kuchipudi is one of the eight major classical dance forms of India, originating from the village of Kuchipudi in Andhra Pradesh. This dance form combines graceful movements with powerful expressions to narrate stories, often from Hindu mythology.
                 </p>
@@ -54,7 +54,7 @@ const Cultural = () => {
                 </p>
               </div>
               <div className="md:w-1/2 bg-amber-800 text-amber-50 p-8">
-                <h3 className="text-2xl font-semibold mb-4">Rangapravesam: A Milestone?</h3>
+                <h3 className="text-2xl font-semibold mb-4">Rangapravesam: A Milestone</h3>
                 <p className="mb-4">
                   In classical Indian dance traditions, the Rangapravesam (or Arangetram in some forms) marks a dancer's formal debut performance after years of rigorous training. It signifies that the dancer has mastered the fundamentals and is now ready to perform before an audience.
                 </p>

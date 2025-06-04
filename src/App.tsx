@@ -10,6 +10,7 @@ import Cultural from './components/Cultural';
 import Closing from './components/Closing';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
+import ProgramGuide from './components/ProgramGuide';
 
 function App() {
   return (
@@ -17,8 +18,9 @@ function App() {
       <Navbar />
       <EventBanner />
       <main>
-        <Hero/>
+        <Hero />
         <CountdownTimer />
+        <ProgramGuide />
         <Biography />
         <ExpertGuidance />
         <Academic />
@@ -26,7 +28,6 @@ function App() {
         <Closing />
       </main>
       <Footer />
-
       {/* Scroll to top button */}
       <button
         onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
