@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import backgroundImage from "../../src/assets/images/2.png"; // Make sure this path is correct
+import backgroundImage from "../../Public/assets/images/2.png"; // Make sure this path is correct
 
 const Hero = () => {
   const heroRef = useRef<HTMLDivElement>(null);
