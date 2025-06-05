@@ -46,17 +46,23 @@ const CountdownTimer = () => {
   ];
 
   return (
-    <div className="py-12 bg-amber-800 text-amber-50" >
+    <div
+      className="bg-amber-800 text-amber-50 pt-12  sm:mb-0"
+      style={{ marginTop: "228px" }}
+    >
       <div className="container mx-auto px-4">
         <div className="text-center">
-          <h2 className="text-2xl md:text-3xl font-display mb-8">
+          <h2 className="text-2xl md:text-3xl font-display mt-5">
             Countdown to Rangapravesam
           </h2>
-          <div className="flex justify-center items-center gap-4 md:gap-8 flex-wrap">
+          <div
+            className="flex justify-center items-center gap-4 md:gap-8 flex-wrap"
+            style={{ padding: "20px " }}
+          >
             {timeUnits.map(({ label, value }) => (
               <div key={label} className="text-center min-w-[100px]">
                 <div className="text-3xl md:text-5xl font-display font-bold mb-2">
-                  {String(value).padStart(2, '0')}
+                  {String(value).padStart(2, "0")}
                 </div>
                 <div className="text-sm md:text-base font-light">{label}</div>
               </div>
