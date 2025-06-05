@@ -1,32 +1,30 @@
-import React from 'react';
-import { ScrollText } from 'lucide-react';
-import Navbar from './components/Navbar';
-import EventBanner from './components/EventBanner';
-import CountdownTimer from './components/CountdownTimer';
-import Biography from './components/Biography';
-import ExpertGuidance from './components/ExpertGuidance';
-import Academic from './components/Academic';
-import Cultural from './components/Cultural';
-import Closing from './components/Closing';
-import Footer from './components/Footer';
-import Hero from './components/Hero';
-import ProgramGuide from './components/ProgramGuide';
+import React from "react";
+import { ScrollText } from "lucide-react";
+import Navbar from "./components/Navbar";
+import EventBanner from "./components/EventBanner";
+import CountdownTimer from "./components/CountdownTimer";
+import Biography from "./components/Biography";
+import ExpertGuidance from "./components/ExpertGuidance";
+import Academic from "./components/Academic";
+import Cultural from "./components/Cultural";
+import Closing from "./components/Closing";
+import Footer from "./components/Footer";
+import Hero from "./components/Hero";
+import ProgramGuide from "./components/ProgramGuide";
 
 function App() {
   return (
     <div className="min-h-screen bg-amber-50 text-stone-800 font-serif">
       <Navbar />
       <EventBanner />
-      <main>
-        <Hero />
-        <CountdownTimer />
-        <ProgramGuide />
-        <Biography />
-        <ExpertGuidance />
-        <Academic />
-        <Cultural />
-        <Closing />
-      </main>
+      <Hero />
+      <CountdownTimer />
+      <ProgramGuide />
+      <Biography />
+      <ExpertGuidance />
+      <Academic />
+      <Cultural />
+      <Closing />
       <Footer />
       {/* Scroll to top button */}
       <button

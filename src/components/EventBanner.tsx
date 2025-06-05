@@ -23,8 +23,8 @@ const EventBanner = () => {
                 <span className="hidden md:inline">
                   Coppell Arts Center, 505 Travis St, Coppell, TX 75019
                 </span>
+                <span className="md:hidden">Coppell Arts Center</span>
               </a>
-              <span className="md:hidden">Coppell Arts Center</span>
             </div>
           </div>
           <EventModal>

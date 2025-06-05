@@ -1,4 +1,6 @@
 import React, { useEffect, useRef } from "react";
+import { HashLink } from "react-router-hash-link";
+
 import { Music2 } from "lucide-react";
 
 const ProgramGuide = () => {
@@ -82,7 +84,7 @@ const ProgramGuide = () => {
   ];
 
   return (
-    <section id="program-guide" className="py-20 bg-white">
+    <section id="programguide" className="py-20 bg-white" >
       <div
         ref={sectionRef}
         className="container mx-auto px-4 sm:px-6 lg:px-8 transition-all duration-1000 transform opacity-0 translate-y-10"

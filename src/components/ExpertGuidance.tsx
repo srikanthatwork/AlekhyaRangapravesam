@@ -30,7 +30,7 @@ const ExpertGuidance = () => {
   }, []);
 
   return (
-    <section id="expert-guidance" className="py-20 bg-amber-50">
+    <section id="expert-guidance" className="py-20 bg-amber-50" >
       <div
         ref={sectionRef}
         className="container mx-auto px-4 sm:px-6 lg:px-8 transition-all duration-1000 transform opacity-0 translate-y-10"

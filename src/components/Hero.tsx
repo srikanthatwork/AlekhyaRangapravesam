@@ -32,29 +32,24 @@ const Hero = () => {
     <section
       id="home"
       ref={heroRef}
-      className="relative min-h-screen flex items-center justify-center pt-16 pb-24 opacity-0 translate-y-10 transition-all duration-500 ease-out"
+      className="relative min-h-[5vh] sm:min-h-screen flex items-center justify-center   opacity-0 transition-all duration-500 ease-out mx-auto"
     >
       {/* Background image with gradient overlay */}
-      <div
-        className="absolute inset-0 z-[-1] bg-cover bg-center bg-no-repeat"
-        style={{
-          backgroundImage: `url(${backgroundImage})`,
-          backgroundPosition: "center center",
-          // backgroundAttachment: "fixed",
-          // backgroundSize: "contain",
-          objectFit: "contain",
-          top: "63px", // Instead of margin-top for absolute positioning
-          //  height:"150vh",
-          width: "100%", // Adjust height to account for the top offset
-          // Add padding for smaller screens
-        }}
-      />
-
-      {/* Gradient overlay */}
-      {/* <div className="absolute inset-0 bg-gradient-to-b from-amber-800/40 to-amber-950/40 z-0"></div> */}
-
-      {/* Your content would go here */}
+      <div className="absolute inset-0 z-[-1] bg-cover bg-center bg-no-repeat">
+        <img src={backgroundImage} alt="" style={{ marginTop: "64px" }} />
+      </div>
     </section>
+    // style={{
+    //   // backgroundImage: `url(${backgroundImage})`,
+    //   backgroundPosition: "center center",
+    //   backgroundAttachment: "fixed",
+    //   backgroundSize: "contain",
+    //   objectFit: "contain",
+    //   // Instead of margin-top for absolute positioning
+    //   height: "150vh",
+    //   width: "100%", // Adjust height to account for the top offset
+    //   // Add padding for smaller screens
+    // }}
   );
 };
 
