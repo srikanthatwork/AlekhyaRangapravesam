@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import AlekhyaGuru from '../../Public/assets/images/AlekhyaGuru.png'; 
 
 const ExpertGuidance = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -42,7 +43,7 @@ const ExpertGuidance = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <img
-                src="../../src/assets/images/AlekhyaGuru.png"
+                src={AlekhyaGuru}
                 alt="Guru Smt. Manju Hema Malini Chavali"
                 className="rounded-lg shadow-lg w-full h-[500px] object-cover"
               />

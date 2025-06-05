@@ -46,7 +46,7 @@ const CountdownTimer = () => {
   ];
 
   return (
-    <div className="py-12 bg-amber-800 text-amber-50">
+    <div className="py-12 bg-amber-800 text-amber-50" >
       <div className="container mx-auto px-4">
         <div className="text-center">
           <h2 className="text-2xl md:text-3xl font-display mb-8">
