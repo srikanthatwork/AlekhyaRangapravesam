@@ -32,7 +32,8 @@ const Hero = () => {
     <section
       id="home"
       ref={heroRef}
-      className="relative min-h-[5vh] sm:min-h-screen flex items-center justify-center   opacity-0 transition-all duration-500 ease-out mx-auto"
+      // className="relative min-h-[5vh] sm:min-h-[100vh] flex items-center justify-center   opacity-0 transition-all duration-500 ease-out mx-auto"
+      className="relative h-[60vh] sm:h-screen flex items-center justify-center pt-16 opacity-0 translate-y-10 transition-all duration-700 ease-out"
     >
       {/* Background image with gradient overlay */}
       <div className="absolute inset-0 z-[-1] bg-cover bg-center bg-no-repeat">
