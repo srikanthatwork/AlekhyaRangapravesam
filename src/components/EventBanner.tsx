@@ -3,7 +3,7 @@ import EventModal from "./EventModal";
 
 const EventBanner = () => {
   return (
-    <div className="bg-amber-900 text-amber-50 py-3 sticky top-16 z-40 shadow-md">
+    <div className="bg-amber-900 text-amber-50 py-3 sticky top-16 z-40 shadow-md ">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col sm:flex-row items-center justify-between gap-2 sm:gap-4 text-sm">
           <div className="flex items-center gap-4 flex-wrap justify-center sm:justify-start">

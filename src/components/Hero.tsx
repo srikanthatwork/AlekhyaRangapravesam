@@ -35,7 +35,7 @@ const Hero = () => {
       className="relative min-h-[5vh] sm:min-h-screen flex items-center justify-center   opacity-0 transition-all duration-500 ease-out mx-auto"
     >
       {/* Background image with gradient overlay */}
-      <div className="absolute inset-0 z-[-1] bg-cover bg-center bg-no-repeat">
+      <div className="absolute inset-0 z-[-1] bg-cover bg-center bg-no-repeat ">
         <img src={backgroundImage} alt="" style={{ marginTop: "64px" }} />
       </div>
     </section>
