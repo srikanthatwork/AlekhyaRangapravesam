@@ -1,5 +1,5 @@
-import React, { useEffect, useRef } from 'react';
-import Alekhya from '../../Public/assets/images/Alekhya.png'; 
+import React, { useEffect, useRef } from "react";
+import Alekhya from "../../Public/assets/images/Alekhya.png";
 const Biography = () => {
   const bioRef = useRef<HTMLDivElement>(null);
 
@@ -7,20 +7,20 @@ const Biography = () => {
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
-          entry.target.classList.add('opacity-100', 'translate-y-0');
-          entry.target.classList.remove('opacity-0', 'translate-y-10');
+          entry.target.classList.add("opacity-100", "translate-y-0");
+          entry.target.classList.remove("opacity-0", "translate-y-10");
         }
       },
       {
         threshold: 0.1,
-        rootMargin: '0px 0px -10% 0px',
+        rootMargin: "0px 0px -10% 0px",
       }
     );
-    
+
     if (bioRef.current) {
       observer.observe(bioRef.current);
     }
-    
+
     return () => {
       if (bioRef.current) {
         observer.unobserve(bioRef.current);
@@ -29,12 +29,12 @@ const Biography = () => {
   }, []);
 
   return (
-    <section id="biography" className="py-20 bg-white ">
+    <section id="biography" className="py-20 bg-white">
       <div
         ref={bioRef}
         className="container mx-auto px-4 sm:px-6 lg:px-8 transition-all duration-1000 transform opacity-0 translate-y-10"
       >
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-6xl mx-auto  mt-24">
           <h2 className="text-3xl md:text-4xl text-amber-800 font-bold text-center mb-12">
             Biography
           </h2>

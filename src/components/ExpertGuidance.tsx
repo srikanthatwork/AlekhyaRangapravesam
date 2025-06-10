@@ -35,7 +35,7 @@ const ExpertGuidance = () => {
         ref={sectionRef}
         className="container mx-auto px-4 sm:px-6 lg:px-8 transition-all duration-1000 transform opacity-0 translate-y-10"
       >
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-6xl mx-auto mt-24">
           <h2 className="text-3xl md:text-4xl text-amber-800 font-bold text-center mb-12">
             Expert Guidance
           </h2>
