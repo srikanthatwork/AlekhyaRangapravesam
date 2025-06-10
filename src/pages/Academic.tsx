@@ -31,11 +31,11 @@ const Academic = () => {
   return (
     <section 
       id="academic" 
-      className="py-20 bg-amber-50"
+      className="py-20 bg-amber-50 "
     >
       <div 
         ref={sectionRef}
-        className="container mx-auto px-4 sm:px-6 lg:px-8 transition-all duration-1000 transform opacity-0 translate-y-10"
+        className="container mx-auto mt-24 px-4 sm:px-6 lg:px-8 transition-all duration-1000 transform opacity-0 translate-y-10"
       >
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl md:text-4xl text-amber-800 font-bold text-center mb-12">
