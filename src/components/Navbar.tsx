@@ -1,5 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X } from 'lucide-react';
+import { Home, Menu, X } from 'lucide-react';
+import ProgramGuide from './ProgramGuide';
+import Biography from './Biography';
+import ExpertGuidance from './ExpertGuidance';
+import Academic from './Academic';
+import Cultural from './Cultural';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,7 +21,7 @@ const Navbar = () => {
     
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  }, [Home,ProgramGuide,Biography,ExpertGuidance,Academic,Cultural], );
 
   const navItems = [
     { name: "Home", href: "#home" },
@@ -30,7 +35,7 @@ const Navbar = () => {
   return (
     <nav className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
       isScrolled ? 'bg-amber-800/90 backdrop-blur-md text-amber-50 shadow-lg' : 'bg-transparent text-amber-800'
-    }`}>
+    } `}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           <div className="flex-shrink-0 font-bold text-xl md:text-2xl font-display">
